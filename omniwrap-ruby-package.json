@@ -1,0 +1,61 @@
+{
+  "artifact_type": "ruby-sdk",
+  "package_manifest": "omniwrap_client.gemspec",
+  "package_name": "code_jack_rabbit",
+  "package_version": "0.3.4",
+  "runtime_floor": ">= 3.2.0",
+  "source_files": [
+    {
+      "path": ".omniwrap-skill-manifest.json",
+      "sha256": "b13dbc59f41b2181b4f6e641b4d84c56f0ae3807cd2ab1c5681cbaf82e69ecac",
+      "size_bytes": 363
+    },
+    {
+      "path": "agent-session.json",
+      "sha256": "ee00d0da739d1654e99ba819763f8661cb1e032b4b2a64501f0ab3cc5da389b3",
+      "size_bytes": 107011
+    },
+    {
+      "path": "AGENT_SESSION.md",
+      "sha256": "16d8c2a0647d592bd72230c6923f47e6bf3bcba342d8d30bbc5abda8b7044f02",
+      "size_bytes": 702
+    },
+    {
+      "path": "api.md",
+      "sha256": "0a5ee32ff19b8b14402ae255a17d937ed10b6200b090328f3bcc5cb034387749",
+      "size_bytes": 39743
+    },
+    {
+      "path": "lib/agent_session.rb",
+      "sha256": "51fb9f8be6083277feec8f46b547f808de4dc3e0a47bed255119aa478504759c",
+      "size_bytes": 1286
+    },
+    {
+      "path": "lib/client.rb",
+      "sha256": "0f4f55669dc5f4eb15c9344cba4cca9b828ede823e90e4f8ff4d5df36a7e3d58",
+      "size_bytes": 12905
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a777913ffc0497b07496507c08d33e9f322714cb9e503583bc09f5d9daec6ee1",
+      "size_bytes": 10261
+    },
+    {
+      "path": "omniwrap_client.gemspec",
+      "sha256": "cdebc5a37d8461e316ac6a9d171dac54d5564d3bbeb162e0e7db2ae9222def96",
+      "size_bytes": 508
+    },
+    {
+      "path": "README.md",
+      "sha256": "ecff41069bd0221b83bbcc3952db7683b3be6b3837e050c283958f2cbb7318b8",
+      "size_bytes": 794
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "94545d0d0f8f2e4e01bb3f5987dd0762a42679b079147ba9bb1a7db0f0a4009d",
+      "size_bytes": 13881
+    }
+  ],
+  "source_version": "0.3.4",
+  "target": "ruby"
+}

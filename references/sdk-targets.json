@@ -1,0 +1,216 @@
+{
+  "contract_fingerprint": "b06781a26c4469e8f12830a04d455957bf620d42b9e1df155e93ee00f293d1c9",
+  "sdk_targets_version": "1.1.0",
+  "targets": [
+    {
+      "identity": {
+        "coordinates": "code_jack_rabbit@0.3.4",
+        "ecosystem": "RubyGems",
+        "entry": "OmniWrap::Client",
+        "import": "require \"code_jack_rabbit\""
+      },
+      "operations": {
+        "analyzeContractDrift": {
+          "member": "analyze_contract_drift",
+          "method": "POST",
+          "path": "/v1/analysis/contract-drift",
+          "resource": "analysis",
+          "signature": "def analyze_contract_drift(body: nil)"
+        },
+        "analyzePerfFinOps": {
+          "member": "analyze_perf_fin_ops",
+          "method": "POST",
+          "path": "/v1/analysis/perf-finops",
+          "resource": "analysis",
+          "signature": "def analyze_perf_fin_ops(body: nil)"
+        },
+        "analyzeSupplyChain": {
+          "member": "analyze_supply_chain",
+          "method": "POST",
+          "path": "/v1/supply-chain/analyze",
+          "resource": "supply_chain",
+          "signature": "def analyze_supply_chain(body: nil)"
+        },
+        "buildAutofixBundle": {
+          "member": "build_autofix_bundle",
+          "method": "POST",
+          "path": "/v1/reviews/autofix",
+          "resource": "reviews",
+          "signature": "def build_autofix_bundle(body: nil)"
+        },
+        "collectDeveloperAudit": {
+          "member": "collect_developer_audit",
+          "method": "POST",
+          "path": "/cli/managed/developer-audit",
+          "resource": "developer_intelligence",
+          "signature": "def collect_developer_audit(body: nil)"
+        },
+        "computeRiskRadar": {
+          "member": "compute_risk_radar",
+          "method": "POST",
+          "path": "/v1/reviews/risk-radar",
+          "resource": "reviews",
+          "signature": "def compute_risk_radar(body: nil)"
+        },
+        "createCodingTask": {
+          "member": "create_coding_task",
+          "method": "POST",
+          "path": "/v1/tasks",
+          "resource": "tasks",
+          "signature": "def create_coding_task(body: nil)"
+        },
+        "createReview": {
+          "member": "create_review",
+          "method": "POST",
+          "path": "/v1/reviews",
+          "resource": "reviews",
+          "signature": "def create_review(body: nil)"
+        },
+        "currentDeveloperIdentity": {
+          "member": "current_developer_identity",
+          "method": "POST",
+          "path": "/cli/managed/developer-identity",
+          "resource": "developer_intelligence",
+          "signature": "def current_developer_identity(body: nil)"
+        },
+        "declareDeveloperProjectContext": {
+          "member": "declare_developer_project_context",
+          "method": "POST",
+          "path": "/cli/managed/audit-context",
+          "resource": "developer_intelligence",
+          "signature": "def declare_developer_project_context(body: nil)"
+        },
+        "evaluateComplianceGate": {
+          "member": "evaluate_compliance_gate",
+          "method": "POST",
+          "path": "/v1/compliance/gate",
+          "resource": "compliance",
+          "signature": "def evaluate_compliance_gate(body: nil)"
+        },
+        "exportSarif": {
+          "member": "export_sarif",
+          "method": "POST",
+          "path": "/v1/compliance/sarif",
+          "resource": "compliance",
+          "signature": "def export_sarif(body: nil)"
+        },
+        "finalizeMeteringQuota": {
+          "member": "finalize_metering_quota",
+          "method": "POST",
+          "path": "/v1/saas/metering/finalize",
+          "resource": "saas",
+          "signature": "def finalize_metering_quota(body: nil)"
+        },
+        "generateSbom": {
+          "member": "generate_sbom",
+          "method": "POST",
+          "path": "/v1/sbom",
+          "resource": "sbom",
+          "signature": "def generate_sbom(body: nil)"
+        },
+        "getAnalyticsRoi": {
+          "member": "get_analytics_roi",
+          "method": "GET",
+          "path": "/v1/analytics/roi",
+          "resource": "analytics",
+          "signature": "def get_analytics_roi()"
+        },
+        "getCapabilities": {
+          "member": "get_capabilities",
+          "method": "GET",
+          "path": "/v1/capabilities",
+          "resource": "capabilities",
+          "signature": "def get_capabilities()"
+        },
+        "getHealth": {
+          "member": "get_health",
+          "method": "GET",
+          "path": "/health",
+          "resource": "health",
+          "signature": "def get_health()"
+        },
+        "getSaasBlueprint": {
+          "member": "get_saas_blueprint",
+          "method": "GET",
+          "path": "/v1/saas/blueprint",
+          "resource": "saas",
+          "signature": "def get_saas_blueprint()"
+        },
+        "getTriageQueue": {
+          "member": "get_triage_queue",
+          "method": "GET",
+          "path": "/v1/triage",
+          "resource": "triage",
+          "signature": "def get_triage_queue()"
+        },
+        "issueSurfaceLease": {
+          "member": "issue_surface_lease",
+          "method": "POST",
+          "path": "/v1/saas/surface-lease/issue",
+          "resource": "saas",
+          "signature": "def issue_surface_lease(body: nil)"
+        },
+        "listCodingTasks": {
+          "member": "list_coding_tasks",
+          "method": "GET",
+          "path": "/v1/tasks",
+          "resource": "tasks",
+          "signature": "def list_coding_tasks()"
+        },
+        "listWaitlist": {
+          "member": "list_waitlist",
+          "method": "GET",
+          "path": "/v1/waitlist",
+          "resource": "waitlist",
+          "signature": "def list_waitlist()"
+        },
+        "managedAuditSnapshots": {
+          "member": "managed_audit_snapshots",
+          "method": "POST",
+          "path": "/cli/managed/audit-snapshots",
+          "resource": "developer_intelligence",
+          "signature": "def managed_audit_snapshots(body: nil)"
+        },
+        "planStackedPrSplit": {
+          "member": "plan_stacked_pr_split",
+          "method": "POST",
+          "path": "/v1/analysis/split-pr",
+          "resource": "analysis",
+          "signature": "def plan_stacked_pr_split(body: nil)"
+        },
+        "providerCostEvidence": {
+          "member": "provider_cost_evidence",
+          "method": "POST",
+          "path": "/cli/managed/finops",
+          "resource": "developer_intelligence",
+          "signature": "def provider_cost_evidence(body: nil)"
+        },
+        "registerWaitlist": {
+          "member": "register_waitlist",
+          "method": "POST",
+          "path": "/v1/waitlist",
+          "resource": "waitlist",
+          "signature": "def register_waitlist(body: nil)"
+        },
+        "reserveMeteringQuota": {
+          "member": "reserve_metering_quota",
+          "method": "POST",
+          "path": "/v1/saas/metering/reserve",
+          "resource": "saas",
+          "signature": "def reserve_metering_quota(body: nil)"
+        },
+        "submitDeveloperEvidence": {
+          "member": "submit_developer_evidence",
+          "method": "POST",
+          "path": "/cli/managed/developer-evidence",
+          "resource": "developer_intelligence",
+          "signature": "def submit_developer_evidence(body: nil)"
+        }
+      },
+      "package_directory": "../code-jack-rabbit-ruby-sdk",
+      "package_manifest": "omniwrap_client.gemspec",
+      "reference": "api.md",
+      "renderer": "ruby"
+    }
+  ]
+}
